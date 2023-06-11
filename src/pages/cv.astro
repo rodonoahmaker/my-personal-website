@@ -5,14 +5,20 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">About</div>
   </div>
 
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class="mb-10">
+    I'm a Product Manager with 3+ years of experience working with software development at startups. I have helped companies acquire new users through product initiatives and growth strategies. <br>
+    <br>
+    Some examples include:
+    <ul class="list-disc ml-8">
+      <li>The planning and implementation of acquisition strategies that led to +200K new product signups in 6 months at Trybe</li>
+      <li>The implementation of +10 product features that improved key conversion metrics by up to 90% at Trybe</li>
+      <li>The implementation of e-mail marketing campaigns supervising the content creation department (visuals and copy) that generated R$300K of revenue in 6 months at dr.consulta</li>
+    </ul>
+    <br>
+    Additionally, I'm very passionate about technology and programming in general. I code in <b>python</b> and <b>SQL</b> and get very excited about opportunities where I get to help the engineers with scripts and algorithm implementations.
   </div>
 
   <div class="mb-5">
@@ -21,13 +27,13 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
+      title="University of Sao Paulo (USP) - #1 Latam"
+      subtitle="Bachelor's degree in Industrial Engineering 2015 - 2019"
+    />
+    <!-- <TimeLineElement
       title="Title Name"
       subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+    /> -->
   </div>
 
   <div class="mb-5">
@@ -36,26 +42,30 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Product Manager"
+      subtitle="Trybe (edtech) from Apr 2021 to Jun 2023 - Remote"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      I worked as the Product Manager of the user acquisition squad within the marketing department, with a strong focus on driving growth and conversion. In this capacity, I collaborated with the Head of Growth and SEO Manager on a day-to-day basis to ensure alignment over our objectives and priorities. The products under my responsibility were the company's website, blog, landing pages, and the platform signup flow. <br>
+      <br>
+      Additionally, I was comfortable using various marketing and product analytics tools to make data-informed decisions, such as GA4, Google Tag Manager, HubSpot, LP Builders, Segment, Amplitude, Metabase, and more.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Product Analyst"
+      subtitle="dr.consulta (healthtech) from Dec 2020 to Apr 2021 - Remote"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      I worked as a Product Analyst responsible for overseeing the company's Help Center Platform, catering to the internal side of the Health Marketplace, specifically targeting healthcare professionals. In this role, my primary focus was on improving user engagement and retention across all medical departments.<br>
+      <br>
+      One of my significant achievements during my tenure was successfully deploying the first version (MVP) of the company's Help Center using WordPress. After launch, the SLA for non-critical support tickets went from 72 hours to 10 minutes.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Product Development Intern"
+      subtitle="dr.consulta (healthtech) from Jan 2020 to Dec 2021 - Remote"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      During my internship, I had the opportunity to gain exposure to the fundamentals of product management. It was my first experience collaborating with other technical departments, such as engineering, design, and data teams.
     </TimeLineElement>
   </div>
 
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -66,27 +76,26 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank"> Certification Name (with link)</a>
     </li>
-  </ul>
+  </ul> -->
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+  <ul class="list-disc md:columns-4 columns-2 mx-6">
+    <li>Product Management</li>
+    <li>Communication</li>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>Data Analysis</li>
+    <li>Marketing</li>
+    <li>Growth</li>
+    <li>Software Development</li>
+    <li>SEO</li>
+    <li>Leadership</li>
+    <li>Figma</li>
+    <li>Design</li>
+    <li>Product Execution</li>
+    <li>Project Management</li>
   </ul>
 </BaseLayout>
